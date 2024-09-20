@@ -5,6 +5,6 @@ int f (int n){
      return f(n-1) + f(n-2); 
 }
 int main(){
-    cout << f(4);
+    cout << f(7);
     return 0;
 }
