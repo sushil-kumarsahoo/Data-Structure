@@ -43,7 +43,7 @@ int main()
     for (int i = 0; i < n; i++)
         cin >> arr[i];
     
-    int low = 0, high = n - 1; // Initialize low and high
+    int low = 0, high = n - 1; 
     mergesort(arr, low, high);
     
     for (int i = 0; i < n; i++) {
